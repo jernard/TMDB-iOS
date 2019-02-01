@@ -46,7 +46,7 @@
 
 #### Search Bard
 
-![Detail](https://github.com/jernard/TMDB-iOS/images/searchBar.png)
+![Search](https://github.com/jernard/TMDB-iOS/images/searchBard.png)
 
 ## Architecture
 
