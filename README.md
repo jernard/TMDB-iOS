@@ -44,7 +44,7 @@
 
 ![Detail](https://github.com/jernard/TMDB-iOS/blob/master/images/detailView.png)
 
-#### Search Bard
+#### Search Bar
 
 ![Search](https://github.com/jernard/TMDB-iOS/blob/master/images/searchBard.png)
 
