@@ -30,23 +30,23 @@
 
 #### Popular
 
-![Popular](https://github.com/jernard/TMDB-iOStree/master//images/popularView.png)
+![Popular](https://github.com/jernard/TMDB-iOS/blob/tree/master/images/popularView.png)
 
 #### Top Rated
 
-![Top Rated](https://github.com/jernard/TMDB-iOStree/master//images/topratedView.png)
+![Top Rated](https://github.com/jernard/TMDB-iOS/blob/tree/master/images/topratedView.png)
 
 #### Upcoming
 
-![Upcoming](https://github.com/jernard/TMDB-iOStree/master//images/upcomingView.png)
+![Upcoming](https://github.com/jernard/TMDB-iOS/blob/tree/master/images/upcomingView.png)
 
 #### Detail
 
-![Detail](https://github.com/jernard/TMDB-iOStree/master//images/detailView.png)
+![Detail](https://github.com/jernard/TMDB-iOS/blob/tree/master/images/detailView.png)
 
 #### Search Bard
 
-![Search](https://github.com/jernard/TMDB-iOStree/master//images/searchBard.png)
+![Search](https://github.com/jernard/TMDB-iOS/blob/tree/master/images/searchBard.png)
 
 ## Architecture
 
