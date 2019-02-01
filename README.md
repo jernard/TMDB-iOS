@@ -26,28 +26,41 @@
 | 6  | As a user I want to search titles even in offline  |
 
 ### AppMap
-![App Map](./images/AppMap.png)
-### Wireframe
+![App Map](https://github.com/jernard/TMDB-iOS/images/AppMap.png)
 
 #### Popular
-![Popular](./images/popularView.png)
-#### Top Rated 
-![Top Rated](./images/topratedView.png)
+
+![Popular](https://github.com/jernard/TMDB-iOS/images/popularView.png)
+
+#### Top Rated
+
+![Top Rated](https://github.com/jernard/TMDB-iOS/images/topratedView.png)
+
 #### Upcoming
-![Upcoming](./images/upcomingView.png)
+
+![Upcoming](https://github.com/jernard/TMDB-iOS/images/upcomingView.png)
+
 #### Detail
-![Detail](./images/detailView.png)
+
+![Detail](https://github.com/jernard/TMDB-iOS/images/detailView.png)
+
+#### Search Bard
+
+![Detail](https://github.com/jernard/TMDB-iOS/images/searchBar.png)
+
 ## Architecture
 
 This app is build in **VIPER** architecture. VIPER is a clean architecture to iOS apps. This makes it easier to isolate dependencies and test the interactions at the boundaries between layers. Additionally, it facilitate improve and add features process in the future.
 
-The app use **Alamofire**, **AlamofireObjectMapper**, **AlamofireImage** Cocoapods Libraries to manage API request and cache.
+The app use **Alamofire**, **AlamofireObjectMapper** and **AlamofireImage** Cocoapods Libraries to manage API request and cache, **PKHUD** for animations and **collection-view-layouts** to staggered layout.
+
+The app request to TMDB API first time and save in cache data. For this reason, the second time that app is launched will load quickly.
 
 ### Views
 
 ### UI
 
-It's conformed by 3 files. *Main.storyboard* contains app flow and defines UI elements like navigations bar, tab bar, collectionsViews, etc. *LaunchScreen.storyboard* is the initial view. It appears when app is launching. *ListItemCell.swift* is a reusable cell whose works as a template to dynamic number of cells in a single collectionView. 
+It's conformed by 3 files. *Main.storyboard* contains app flow and defines UI elements like navigations bar, tab bar, collectionsViews, etc. *LaunchScreen.storyboard* is the initial view. It appears when app is launching. *ListItemCell.swift* is a reusable cell whose works as a template to dynamic number of cells in a single collectionView.
 
 - Main.storyboard
 
